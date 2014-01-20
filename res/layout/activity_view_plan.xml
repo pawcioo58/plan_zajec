@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_plan" >
+<LinearLayout
+        android:id="@+id/Belka"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#1f84d1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Belka2"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/Belka"
+        android:background="#efefef"
+        android:orientation="horizontal" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/Button04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:background="@drawable/button_week_select"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Poniedziałek"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/pasek_pion"
+                    android:gravity="center_vertical" />
+
+                <Button
+                    android:id="@+id/Button03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:background="@drawable/button_week"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Wtorek"
+                    android:textSize="12sp" />
+
+                <View
+                     android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/pasek_pion"
+                    android:gravity="center_vertical" />
+
+                <Button
+                    android:id="@+id/Button02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:background="@drawable/button_week"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Środa"
+                    android:textSize="12sp" />
+
+                <View
+                     android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/pasek_pion"
+                    android:gravity="center_vertical" />
+
+                <Button
+                    android:id="@+id/Button01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:background="@drawable/button_week"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Czwartek"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/pasek_pion"
+                    android:gravity="center_vertical" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:background="@drawable/button_week"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Piątek"
+                    android:textSize="12sp" />
+
+                <View
+                     android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/pasek_pion"
+                    android:gravity="center_vertical" />
+
+                <Button
+                    android:id="@+id/Button05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:background="@drawable/button_week"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Sobota"
+                    android:textSize="12sp" />
+
+                <View
+                   android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/pasek_pion"
+                    android:gravity="center_vertical" />
+
+                <Button
+                    android:id="@+id/Button06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:background="@drawable/button_week"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Niedziela"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/Belka2"
+    android:background="#ffffff" />
+
+</RelativeLayout>

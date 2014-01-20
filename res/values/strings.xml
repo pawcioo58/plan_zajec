@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Plan Zajęć</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nazwa">Nazwa</string>
+    <string name="skrot">Skrót</string>
+    <string name="typ">Typ</string>
+    <string name="miejsce">Miejsce</string>
+    <string name="nauczyciel">Nauczyciel</string>
+    <string name="Dodaj_przedmiot">Utwórz przedmiot</string>
+    <string name="title_activity_dodawanie_przedmiotow">Dodawanie_przedmiotow</string>
+
+    <string-array name="spiner01_belka">
+        <item>Przedmioty</item>
+        <item>Plan zajęć</item>
+        <item>Wydarzenia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <string name="title_activity_view_plan">View_plan</string>
+    <string name="title_activity_view_list_przedmioty">View_list_przedmioty</string>
+    <string name="title_activity_view_list_dni_tyg">View_list_dni_tyg</string>
+    <string name="title_activity_plan_na_dzien_edit">Plan_na_dzien_edit</string>
+    <string name="title_activity_przedmioty_w_dany_dzien">Przedmioty_w_dany_dzien</string>
+
+</resources>
